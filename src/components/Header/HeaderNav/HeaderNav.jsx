@@ -1,7 +1,8 @@
 export const HeaderNav = () => {
   return (
     <div>
-      <p>Hello world</p>
+      <button>Home</button>
+      <button>Movies</button>
     </div>
   );
 }
