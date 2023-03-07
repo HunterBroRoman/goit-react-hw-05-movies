@@ -2,7 +2,6 @@ import axios from 'axios';
 import photoHolder from 'images/ava.jpg';
 
 const BASE_URL = 'https://api.themoviedb.org/3/';
-// https://image.tmdb.org/t/p/w400/kqjL17yufvn9OVLyXYpvtyrFfak.jpg
 const IMAGE_URL = 'https://image.tmdb.org/t/p/w300';
 const API_KEY = '8a7300a64d51a4763298450a1c448d8d';
 
