@@ -7,7 +7,7 @@ const Home = () => {
 
   useEffect(() => {
     getFetchTrending().then(({ data }) => {
-      setMovies(data.);
+      setMovies(data.results);
     });
   }, []);
 
