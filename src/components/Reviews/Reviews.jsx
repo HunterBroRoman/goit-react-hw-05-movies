@@ -19,7 +19,7 @@ const Reviews = () => {
           {reviews.map(({ id, author, content }) => (
             <ReviewsStyled key={id}>
               <h4>{author}</h4>
-              <p>{content}</p>// если есть отзыв
+              <p>{content}</p> 
             </ReviewsStyled>
           ))}
         </ul>
