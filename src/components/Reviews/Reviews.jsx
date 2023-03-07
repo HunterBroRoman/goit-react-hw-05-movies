@@ -19,12 +19,12 @@ const Reviews = () => {
           {reviews.map(({ id, author, content }) => (
             <ReviewsStyled key={id}>
               <h4>{author}</h4>
-              <p>{content}</p>
+              <p>{content}</p>// если есть отзыв
             </ReviewsStyled>
           ))}
         </ul>
       ) : (
-        <p>We don't have any reviews for this movie.</p>
+        <p>We don't have any reviews for this movie.</p>//если нет отзывов
       )}
     </>
   );
