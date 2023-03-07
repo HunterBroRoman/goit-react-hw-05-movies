@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link, useSearchParams, useLocation } from 'react-router-dom';
-import * as api from 'services/tmdb-api';
+import * as api from 'services/api';
 
 const Movies = () => {
   const [query, setQuery] = useState('');

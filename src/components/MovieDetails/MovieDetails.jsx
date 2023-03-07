@@ -7,7 +7,7 @@ import {
   useLocation,
   useNavigate,
 } from 'react-router-dom';
-import * as api from 'services/tmdb-api';
+import * as api from 'services/api';
 
 import {
   MovieImg,

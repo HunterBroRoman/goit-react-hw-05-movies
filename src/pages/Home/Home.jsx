@@ -1,6 +1,6 @@
 import { Link, useLocation } from 'react-router-dom';
 import { useState, useEffect } from 'react';
-import * as api from 'services/tmdb-api';
+import * as api from 'services/api';
 
 const Home = () => {
   const [trandingMovies, setTrandingMovies] = useState([]);

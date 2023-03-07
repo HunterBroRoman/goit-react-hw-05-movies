@@ -1,6 +1,6 @@
 import { useParams } from 'react-router-dom';
 import { useState, useEffect } from 'react';
-import * as api from 'services/tmdb-api';
+import * as api from 'services/api';
 
 import { ReviewsStyled } from 'components/Reviews/ReviewsStyled';
 
