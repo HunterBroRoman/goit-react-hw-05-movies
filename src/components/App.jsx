@@ -32,15 +32,15 @@ const App = () => {
           <Route path="movies/:movieId" element={<MovieDetails />}>
             <Route path="cast" element={<Cast />} />
             <Route path="reviews" element={<Reviews />} />
-          </Route>
+                      </Route>
         </Route>
-        <Route
-          path="*"
-          element={
-            <>
-              <h2>404 Not found :(</h2>
+        <Route path="*" element={
+          
+            <div style={{ textAlign: 'center' }}>
+              <h2 style={{ fontSize: 64, color:"red", }}>404 Not found :(</h2>
               <Link to="/">Back to home</Link>
-            </>
+              </div>
+            
           }
         />
       </Routes>
