@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const MovieImg = styled.img`
-  height: 300px;
+  height: 400px;
 `;
 
 const MovieCard = styled.div`

@@ -20,7 +20,7 @@ const Cast = () => {
               <Photo src={photo} alt={name} />
               <h4>{name}</h4>
               <p>Character: {character}</p>
-            </CastStyled>
+            </CastStyled>//карточка с фото актера
           );
         })}
     </ul>
